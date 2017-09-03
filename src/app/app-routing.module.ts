@@ -6,9 +6,11 @@ import { Route1Component } from './route1/route1.component';
 import { Route2Component } from './route2/route2.component';
 import { Route3Component } from './route3/route3.component';
 import { Route4Component } from './route4/route4.component';
+import { AnimateComponent } from './animate/animate.component';
 
 const routes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
+    { path: 'animate', component: AnimateComponent },
     { path: 'home', component: HomeComponent, data: { animation: 'home' } },
     { path: 'route1', component: Route1Component, data: { animation: 'route1' } },
     { path: 'route2', component: Route2Component, data: { animation: 'route2' } },

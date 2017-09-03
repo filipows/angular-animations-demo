@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { Route2Component } from './route2/route2.component';
 import { Route3Component } from './route3/route3.component';
 import { Route4Component } from './route4/route4.component';
+import { AnimateComponent } from './animate/animate.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { Route4Component } from './route4/route4.component';
     Route1Component,
     Route2Component,
     Route3Component,
-    Route4Component
+    Route4Component,
+    AnimateComponent
   ],
   imports: [
     BrowserModule,

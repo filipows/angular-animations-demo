@@ -1,0 +1,16 @@
+<header>
+  <div>
+    <span style="display: block"
+      [@bounceOut]="animationTriggers.bounceOut" 
+      [@zoomInDown]="animationTriggers.zoomInDown" 
+    >
+      <h1>Animate</h1>
+    </span>
+    <span>Angular 4+ animations</span>
+  </div>
+</header>
+<main>
+  <div>
+    <button (click)="animateNext()">Animate next</button>
+  </div>
+</main>
