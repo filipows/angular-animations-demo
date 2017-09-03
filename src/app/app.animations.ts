@@ -1,4 +1,4 @@
-import { animate, AnimationTriggerMetadata, state, style, transition, trigger, group, animateChild, sequence, query } from '@angular/animations';
+import { animate, AnimationTriggerMetadata, state, style, transition, trigger, group, animateChild, query } from '@angular/animations';
 
 export const routeAnimation: AnimationTriggerMetadata =
     trigger('routeAnimation', [
